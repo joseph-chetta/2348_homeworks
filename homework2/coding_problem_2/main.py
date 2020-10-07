@@ -1,7 +1,7 @@
 # Joseph Chetta 1640405
 
-# Portion 'a' solution
-file = input()
+# Portion 'b' solution
+file = 'inputDates.txt'
 with open(file) as file_data:
     for line in file_data:
         if line == '-1':
@@ -12,3 +12,5 @@ with open(file) as file_data:
         else:
             # ignore
             pass
+
+
